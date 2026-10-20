@@ -103,3 +103,11 @@ Updated: 2026-10-20
 - The synchronous insertion is limited to the parse-time banner slot for compatibility with document.write-based ad loaders; do not execute after DOM parsing.
 - No popunder, overlay, unsolicited redirects, click manipulation, or ads on official links. Check advertiser creative and report unsafe materials.
 - Verify the ad slot at >=1024px, no horizontal scrolling at 375px, privacy disclosures, and Cloudflare successful deployment before calling complete.
+
+## 2026-10-20 Mobile-only 320x50 rollout
+- Supplied iframe 320x50 code: `https://bauval.org/22/b070cfac5bf0eeacbc2def9e074996eb`.
+- Exactly ONE mobile banner per article after article content, before footer across all seven articles; desktop 728x90 remains unchanged and homepage retains 300x250.
+- MatchMedia guard `(min-width: 320px) and (max-width: 799px)` ensures only mobile loads its external ad JS during HTML parsing. 728x90 loader requires `min-width: 800px`. Desktop and mobile units are mutually exclusive per viewport on initial page load; a later resize does not automatically reload ads.
+- Mobile slot has disclosure label, privacy and complaint links; nonsticky, no overlays or hidden mobile impression. Sub-320-pixel devices load neither article unit to avoid horizontal overflow.
+- Quality gates: 375px viewport should show 320x50 and not 728x90; 1024px should show 728x90 and not 320x50. Inspect unwanted ads and contact Adsterra for exclusions as necessary.
+- Cookie consent / privacy requirements must be reviewed for jurisdictions needing opt-in; ad-category controls rely on Adsterra support and need continued creative monitoring.
