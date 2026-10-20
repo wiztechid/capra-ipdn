@@ -6,7 +6,7 @@ Updated: 2026-10-20
 - Source: wiztechid/capra-ipdn (main), deployed automatically to Cloudflare Pages.
 - Publisher: NOT submitted; NOT approved; NO ad scripts installed at time of audit.
 - Public trust pages: about, contact, privacy, privacy-bot, disclaimer, terms.
-- Sitemap contains 11 canonical Cloudflare Pages URLs.
+- Sitemap contains 14 canonical Cloudflare Pages URLs after the 2026-10-20 post-SKD update.
 - All pages identify CAPRA IPDN as an independent community website, not an official IPDN or government service.
 
 ## Publisher application quality gate
@@ -39,3 +39,11 @@ Updated: 2026-10-20
 - Community: https://t.me/capraipdn
 - Never collect NIK, OTP, passwords, card information or individual exam records through public channels.
 - Roll back Cloudflare Pages to the last successful deployment; revert commits instead of rewriting Git history.
+
+## Editorial change log — 20 October 2026
+- Fixed inaccurate SKD date (22–29 September, not through 29 October) and homepage stage logic.
+- New user-intent gaps: official stage-I health results per 38 provincial annexes, psychology/gladi preparation, consolidated selection-later schedule and final selection.
+- Editorial source: SPCP IPDN 2026 official announcement pages. Do not copy personal candidate data into our server.
+- Official SPCP homepage and selection-later schedule have conflicting final-selection regional dates; article documents discrepancy and defers to the newest official notice.
+- Keyword potential is qualitative based on timely user intent; no independently verified search-volume or SERP competition metric was obtained. Do not invent monthly volume.
+- Source PDF for psychology was linked from SPCP but could not be independently extracted during this update. Article therefore does not assert detailed clothing, devices, exam-session rules.
