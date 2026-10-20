@@ -51,15 +51,15 @@ Updated: 2026-10-20
 ## Article SEO publication gate — 20 Oct 2026
 - Three post-SKD articles keep unique search intent and canonical slugs; do not duplicate existing URLs.
 - Unique H1 and title/description; named source SPCP; author/publisher Article JSON-LD; Open Graph/Twitter large-image metadata.
-- Local SVG editorial fallback hero assets are deployed at each article directory; the 3 generated raster artwork designs are pending binary delivery to GitHub and must not be represented as installed until verified.
+- Three illustrated WebP hero assets (1672×941, roughly 215–264 KiB) are deployed at repository root: /hasil-tes-kesehatan-ipdn-2026.webp, /tes-psikologi-ipdn-2026.webp, /jadwal-seleksi-lanjutan-ipdn-2026.webp. Earlier SVG assets remain as unreferenced backup.
 - Image is illustrative, not an official document or exam result. No personal data in images or article body.
 - Recheck page live, article date, dynamic site timeline and official announcements before claiming freshness; verify mobile when supported.
 
 ## Homepage featured articles QC — 20 Oct 2026
 - The three newest post-SKD articles are visible as image-led linked feature cards in a single primary homepage section: results, psychology, and selection-later schedule.
-- Each feature uses an already published SVG hero in its article folder, descriptive alt text, unique H3, source/date label, short summary, and one direct canonical internal URL.
+- Each featured card uses its corresponding published WebP image, descriptive alt text, unique H3, source/date label, summary, and direct canonical internal URL.
 - Older SKD cards remain indexed and linked but are explicitly titled ARSIP SKD; any prior unverified most-popular claims are removed.
-- Never claim a newly generated raster image is installed when only the locally published SVG editorial hero is used.
+- Verified 20 Oct 2026: creative WebP images are installed on article pages and the homepage. Do not mistake an illustrative image for an official document or official IPDN portrait.
 - Desktop grids are 3-column, tablet 2-column, narrow mobile 1-column; visually verify after deployment.
 
 ## Unified article homepage policy — 20 October 2026
@@ -70,3 +70,8 @@ Updated: 2026-10-20
 - Structured data: an ItemList records the identical published order for the visible cards.
 - Existing individual article URLs, source references and canonical are unchanged. New article requires a new unique slug and a homepage refresh based on the manifest (latest 9 only).
 - Homepage navigation points to `#artikel-utama`; the former `#info-terbaru` anchor remains as a hidden compatibility anchor for old internal/external links.
+
+## 2026-10-20 WebP image rollout
+- Replaced SVG display images in three October articles and three featured homepage cards with the uploaded WebP assets. Did not modify article slugs, article count (7), order (newest first), legacy GitHub Pages redirects, or sitemap URLs.
+- Kept fallback SVG assets in git for safe rollback. Corrected social preview image URLs and dimensions and Article JSON-LD ImageObject fields.
+- Visual publication must be verified on production after Cloudflare Pages GitHub push finishes; browser cache may require a hard refresh.
