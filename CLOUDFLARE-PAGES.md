@@ -9,3 +9,7 @@
 - Avoid enabling ads until publisher approval and review of privacy, consent, and ad creative safety.
 
 Legacy GitHub Pages links use a conditional JavaScript `location.replace` redirect by host/path, because github.io cannot serve configurable HTTP 301 redirects. This is a fallback supported by Google, though less robust than server 301. Preserve the old site and do not disable GitHub Pages until indexing and traffic transitions.
+
+## Cloudflare Git auto-deploy connectivity verification
+
+Repository access was updated by the owner on 2026-10-20. This documentation-only commit checks whether Cloudflare Pages receives push events for the `main` branch without manually deploying; no website content is changed.
