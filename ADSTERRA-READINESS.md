@@ -88,3 +88,10 @@ Updated: 2026-10-20
 - The ad placement was therefore removed from production immediately, pending Adsterra publisher support confirming exclusions for gambling, adult, misleading financial offers, deceptive government/selection claims and unsafe creatives. No banner script remains active on homepage; previous deployment/commit preserves tested placement for controlled future restore.
 - Publisher must verify site approval and category restrictions with Adsterra before requesting reactivation. Do not conflate adult toggle OFF with a gambling exclusion.
 - The privacy notice now accurately states that the Adsterra script has been disabled after the trial.
+
+## 2026-10-20 Return-to-service after Adsterra support filtering
+- Publisher support confirmed in chat: 'Such ads have been disabled for your website. If you notice any unwanted ads, please take a screenshot and share it with us.' This is provider assurance only; categories are not independently verified for all geographies/audiences.
+- Re-enabled the SAME single fixed Adsterra banner 300x250 at the original labeled after-articles location; other formats remain uninstalled.
+- Source: script https://bauval.org/22/ad73ea00997eaff751ce6e85ed56427c supplied by publisher; no redirect on navigation or overlay code added by us.
+- Before scaling monetization: inspect creative on desktop/mobile, take evidence of unwanted ads, request provider campaign blocking and roll back to 0c65de2 if violations recur.
+- Privacy policy records third-party ad loading/cookies. Consider jurisdiction-sensitive consent controls prior to traffic from jurisdictions requiring opt-in.
