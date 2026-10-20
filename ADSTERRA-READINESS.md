@@ -61,3 +61,12 @@ Updated: 2026-10-20
 - Older SKD cards remain indexed and linked but are explicitly titled ARSIP SKD; any prior unverified most-popular claims are removed.
 - Never claim a newly generated raster image is installed when only the locally published SVG editorial hero is used.
 - Desktop grids are 3-column, tablet 2-column, narrow mobile 1-column; visually verify after deployment.
+
+## Unified article homepage policy — 20 October 2026
+- Exactly one unified section `#artikel-utama` lists recent and earlier article content in the same card design (consistent thumbnail, title, date, category, CTA).
+- Maximum 9 article cards on homepage, newest publication date first (not date of event/announcement and not cosmetic template updates).
+- Article source manifest: `article-index.json`, with distinct slug, published date, hero thumbnail, description, and category. Keep static HTML cards synchronized on publishing or updating articles; preserve crawlable HTML instead of JS-only rendering.
+- Present article labels for SKD as archive within the same grid rather than in a separate article section.
+- Structured data: an ItemList records the identical published order for the visible cards.
+- Existing individual article URLs, source references and canonical are unchanged. New article requires a new unique slug and a homepage refresh based on the manifest (latest 9 only).
+- Homepage navigation points to `#artikel-utama`; the former `#info-terbaru` anchor remains as a hidden compatibility anchor for old internal/external links.

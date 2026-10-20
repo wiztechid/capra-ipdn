@@ -1,0 +1,72 @@
+{
+  "updated": "2026-10-20",
+  "max_homepage": 9,
+  "sort_by": "datePublished",
+  "sort_order": "desc",
+  "notes": "Publish date sourced from individual article structured data; ties ordered by editorial relevance. Do not conflate official exam or announcement dates with article published dates.",
+  "articles": [
+    {
+      "slug": "hasil-tes-kesehatan-ipdn-2026",
+      "datePublished": "2026-10-20",
+      "title": "Hasil Tes Kesehatan IPDN 2026: Cek per Provinsi",
+      "description": "38 lampiran PDF resmi SPCP, cara cek hasil kesehatan Tahap I dan langkah setelah dinyatakan lulus.",
+      "category": "Hasil seleksi",
+      "image": "/hasil-tes-kesehatan-ipdn-2026/hero-capra-2026.svg",
+      "alt": "Ilustrasi hasil Tes Kesehatan IPDN 2026 dan lampiran PDF provinsi"
+    },
+    {
+      "slug": "tes-psikologi-ipdn-2026",
+      "datePublished": "2026-10-20",
+      "title": "Tes Psikologi IPDN 2026: Gladi, Jadwal & Persiapan",
+      "description": "Gladi 21 Oktober, tes psikologi 22 Oktober, pedoman resmi dan daftar hal penting untuk peserta.",
+      "category": "Tes psikologi",
+      "image": "/tes-psikologi-ipdn-2026/hero-capra-2026.svg",
+      "alt": "Ilustrasi persiapan Tes Psikologi, Integritas dan Kejujuran IPDN 2026"
+    },
+    {
+      "slug": "jadwal-seleksi-lanjutan-ipdn-2026",
+      "datePublished": "2026-10-20",
+      "title": "Jadwal Seleksi Lanjutan IPDN 2026 hingga Kelulusan",
+      "description": "Urutan tahapan setelah SKD, psikologi, pantukhir, hasil akhir, dan rencana registrasi calon praja.",
+      "category": "Jadwal seleksi",
+      "image": "/jadwal-seleksi-lanjutan-ipdn-2026/hero-capra-2026.svg",
+      "alt": "Ilustrasi jadwal dan tahapan seleksi lanjutan IPDN 2026"
+    },
+    {
+      "slug": "jumlah-soal-skd-ipdn-2026",
+      "datePublished": "2026-09-20",
+      "title": "Jumlah Soal SKD IPDN 2026: TWK, TIU, TKP",
+      "description": "Penjelasan 110 soal dalam 100 menit, pembagian materi, sistem penilaian dan strategi waktu.",
+      "category": "Materi SKD",
+      "image": "/hero-jumlah-soal-skd-ipdn-2026.webp",
+      "alt": "Infografik jumlah soal SKD IPDN 2026, total 110 soal"
+    },
+    {
+      "slug": "skd-ipdn-2026-apa-yang-dibawa",
+      "datePublished": "2026-09-19",
+      "title": "SKD IPDN 2026: Dokumen, Pakaian & Larangan",
+      "description": "Checklist dokumen dan perlengkapan, aturan pakaian serta hal yang perlu diperhatikan sebelum CAT.",
+      "category": "Checklist SKD",
+      "image": "/hero-persiapan-skd-kedinasan-1.webp",
+      "alt": "Infografik persiapan perlengkapan SKD IPDN 2026"
+    },
+    {
+      "slug": "passing-grade-skd-ipdn-2026",
+      "datePublished": "2026-09-19",
+      "title": "Passing Grade & Peta Persaingan SKD IPDN 2026",
+      "description": "Nilai ambang batas TWK, TIU, TKP, data provinsi, dan penjelasan ranking serta afirmasi.",
+      "category": "Analisis SKD",
+      "image": "/hero-passing-grade-skd-ipdn-2026-final.webp",
+      "alt": "Infografik passing grade SKD IPDN 2026 dan persaingan 38 provinsi"
+    },
+    {
+      "slug": "jadwal-skd-ipdn-2026-lokasi-sesi",
+      "datePublished": "2026-09-19",
+      "title": "Jadwal SKD IPDN 2026: 40 Lokasi di 38 Provinsi",
+      "description": "Cari provinsi, lokasi dan sesi ujian berdasarkan pengumuman resmi beserta tautan peta.",
+      "category": "Jadwal SKD",
+      "image": "/hero-jadwal-skd-ipdn-2026.webp",
+      "alt": "Infografik jadwal SKD IPDN 2026 pada 40 lokasi"
+    }
+  ]
+}
