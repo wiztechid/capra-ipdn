@@ -82,3 +82,9 @@ Updated: 2026-10-20
 - Only this requested fixed banner script is installed on homepage. No popunder, Smartlink, Social Bar, autoplay, sticky overlay, click manipulation, or additional slots.
 - Website privacy notice explicitly discloses Adsterra and `bauval.org` ad loader plus potential third-party tracking and cookies. Additional regional consent obligations must be assessed; third-party tracking cannot be disabled solely by CSS.
 - Publisher approval and ad creative suitability cannot be independently confirmed from repository or Cloudflare deployment; review provider dashboard and block inappropriate categories. If a provider compliance or ad quality issue arises, remove the one homepage slot and redeploy.
+
+## 2026-10-20 Ad quality incident and immediate pause
+- During initial production QA the single display banner loaded an advertisement labeled 'WIN / SUPER BONUS', resembling a betting/bonus game. The offer's legal classification was NOT established; it should not be claimed as confirmed gambling.
+- The ad placement was therefore removed from production immediately, pending Adsterra publisher support confirming exclusions for gambling, adult, misleading financial offers, deceptive government/selection claims and unsafe creatives. No banner script remains active on homepage; previous deployment/commit preserves tested placement for controlled future restore.
+- Publisher must verify site approval and category restrictions with Adsterra before requesting reactivation. Do not conflate adult toggle OFF with a gambling exclusion.
+- The privacy notice now accurately states that the Adsterra script has been disabled after the trial.
