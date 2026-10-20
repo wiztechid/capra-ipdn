@@ -95,3 +95,11 @@ Updated: 2026-10-20
 - Source: script https://bauval.org/22/ad73ea00997eaff751ce6e85ed56427c supplied by publisher; no redirect on navigation or overlay code added by us.
 - Before scaling monetization: inspect creative on desktop/mobile, take evidence of unwanted ads, request provider campaign blocking and roll back to 0c65de2 if violations recur.
 - Privacy policy records third-party ad loading/cookies. Consider jurisdiction-sensitive consent controls prior to traffic from jurisdictions requiring opt-in.
+
+## 2026-10-20 Desktop banner 728x90 pilot
+- Publisher-supplied iframe 728x90 code: `https://bauval.org/22/aa941b41755dbc4330bd8b9a211fd8f4`.
+- Installed one banner per article after its main body and before footer across seven article pages. Homepage retains exactly one 300x250 slot.
+- At HTML parse time, the 728x90 request is made only if `matchMedia('(min-width: 800px)')` is true. CSS hides this slot at narrower widths and there is no hidden mobile ad request.
+- The synchronous insertion is limited to the parse-time banner slot for compatibility with document.write-based ad loaders; do not execute after DOM parsing.
+- No popunder, overlay, unsolicited redirects, click manipulation, or ads on official links. Check advertiser creative and report unsafe materials.
+- Verify the ad slot at >=1024px, no horizontal scrolling at 375px, privacy disclosures, and Cloudflare successful deployment before calling complete.
