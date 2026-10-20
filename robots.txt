@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://wiztechid.github.io/capra-ipdn/sitemap.xml
+Sitemap: https://capra-ipdn.pages.dev/sitemap.xml
