@@ -47,3 +47,10 @@ Updated: 2026-10-20
 - Official SPCP homepage and selection-later schedule have conflicting final-selection regional dates; article documents discrepancy and defers to the newest official notice.
 - Keyword potential is qualitative based on timely user intent; no independently verified search-volume or SERP competition metric was obtained. Do not invent monthly volume.
 - Source PDF for psychology was linked from SPCP but could not be independently extracted during this update. Article therefore does not assert detailed clothing, devices, exam-session rules.
+
+## Article SEO publication gate — 20 Oct 2026
+- Three post-SKD articles keep unique search intent and canonical slugs; do not duplicate existing URLs.
+- Unique H1 and title/description; named source SPCP; author/publisher Article JSON-LD; Open Graph/Twitter large-image metadata.
+- Local SVG editorial fallback hero assets are deployed at each article directory; the 3 generated raster artwork designs are pending binary delivery to GitHub and must not be represented as installed until verified.
+- Image is illustrative, not an official document or exam result. No personal data in images or article body.
+- Recheck page live, article date, dynamic site timeline and official announcements before claiming freshness; verify mobile when supported.
