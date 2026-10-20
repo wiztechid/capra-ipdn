@@ -75,3 +75,10 @@ Updated: 2026-10-20
 - Replaced SVG display images in three October articles and three featured homepage cards with the uploaded WebP assets. Did not modify article slugs, article count (7), order (newest first), legacy GitHub Pages redirects, or sitemap URLs.
 - Kept fallback SVG assets in git for safe rollback. Corrected social preview image URLs and dimensions and Article JSON-LD ImageObject fields.
 - Visual publication must be verified on production after Cloudflare Pages GitHub push finishes; browser cache may require a hard refresh.
+
+## 2026-10-20 Adsterra 300×250 homepage pilot
+- One Adsterra publisher banner unit, key suffix `6427c`, is installed after the unified articles grid and before the anti-scam informational section; never inside or over official PDF buttons.
+- Slot clearly marked `Iklan · Sponsor pihak ketiga`, with disclosure and complaint/privacy links; 300×250 max-width responsive layout.
+- Only this requested fixed banner script is installed on homepage. No popunder, Smartlink, Social Bar, autoplay, sticky overlay, click manipulation, or additional slots.
+- Website privacy notice explicitly discloses Adsterra and `bauval.org` ad loader plus potential third-party tracking and cookies. Additional regional consent obligations must be assessed; third-party tracking cannot be disabled solely by CSS.
+- Publisher approval and ad creative suitability cannot be independently confirmed from repository or Cloudflare deployment; review provider dashboard and block inappropriate categories. If a provider compliance or ad quality issue arises, remove the one homepage slot and redeploy.
