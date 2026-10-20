@@ -54,3 +54,10 @@ Updated: 2026-10-20
 - Local SVG editorial fallback hero assets are deployed at each article directory; the 3 generated raster artwork designs are pending binary delivery to GitHub and must not be represented as installed until verified.
 - Image is illustrative, not an official document or exam result. No personal data in images or article body.
 - Recheck page live, article date, dynamic site timeline and official announcements before claiming freshness; verify mobile when supported.
+
+## Homepage featured articles QC — 20 Oct 2026
+- The three newest post-SKD articles are visible as image-led linked feature cards in a single primary homepage section: results, psychology, and selection-later schedule.
+- Each feature uses an already published SVG hero in its article folder, descriptive alt text, unique H3, source/date label, short summary, and one direct canonical internal URL.
+- Older SKD cards remain indexed and linked but are explicitly titled ARSIP SKD; any prior unverified most-popular claims are removed.
+- Never claim a newly generated raster image is installed when only the locally published SVG editorial hero is used.
+- Desktop grids are 3-column, tablet 2-column, narrow mobile 1-column; visually verify after deployment.
