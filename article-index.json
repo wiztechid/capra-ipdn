@@ -1,10 +1,28 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-28",
   "max_homepage": 9,
   "sort_by": "datePublished",
   "sort_order": "desc",
   "notes": "Publish date sourced from individual article structured data; ties ordered by editorial relevance. Do not conflate official exam or announcement dates with article published dates.",
   "articles": [
+    {
+      "slug": "paket-latihan-soal-ipdn-2026",
+      "datePublished": "2026-10-28",
+      "title": "Paket Latihan Soal Tes Masuk IPDN 2026: 48 Soal + Pembahasan",
+      "description": "Unduh paket latihan mandiri 48 soal IPDN: TWK, TIU, TKP, dan Bahasa Inggris, lengkap dengan kunci serta pembahasan. Bukan soal resmi.",
+      "category": "Latihan soal",
+      "image": "/paket-latihan-soal-ipdn-2026.webp",
+      "alt": "Sampul paket latihan mandiri IPDN 2026 berisi 48 soal TWK, TIU, TKP, dan Bahasa Inggris"
+    },
+    {
+      "slug": "pantukhir-ipdn-2026",
+      "datePublished": "2026-10-26",
+      "title": "Pantukhir IPDN 2026: Jadwal, Dokumen & Perlengkapan",
+      "description": "Rincian enam gelombang, lokasi Papua, dokumen wajib, pakaian dan checklist peserta berdasarkan surat resmi panitia.",
+      "category": "Pantukhir",
+      "image": "/pantukhir-ipdn-2026.svg",
+      "alt": "Panduan jadwal dan perlengkapan Pantukhir IPDN 2026"
+    },
     {
       "slug": "hasil-tes-kesehatan-ipdn-2026",
       "datePublished": "2026-10-20",
